@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+class Main {
+  
+  public static void main(String[] args) {
+     
+     Scanner teclado = new Scanner(System.in);
+     
+     System.out.print("Me informe a base do quadrado: ");
+     double x = teclado.nextDouble();
+
+     System.out.print("Agora a altura desse mesmo quadrado: ");
+     double y = teclado.nextDouble();
+    
+     double a = x * y;
+     double d = a * 2;
+
+     System.out.println("A aréa deste quadrado é: " + a + "!");
+     
+     System.out.println("E o dobro dessa aréa é: " + d + "!");
+
+     }
+
+}
